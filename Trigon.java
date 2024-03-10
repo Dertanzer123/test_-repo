@@ -17,12 +17,12 @@ this.v2=v2;
 this.v3=v3;
 
 
-recalcnorm;
+recalcnorm();
 
 }
 public void recalcnorm() 
 {
-
+ normal=Vector.crossP(Vsum(v1.position,v2.position.reverse() ) ,Vsum(v1.position,v3.position.reverse()));
 }
 
 
