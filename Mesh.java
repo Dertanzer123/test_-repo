@@ -5,7 +5,18 @@ include Trigon;
 public class Mesh{
 
 
-list{Trigon} trigons;
+private list{Trigon} trigons;
+Mesh(Trigon input){
 
+public trigons={input};
+
+
+
+}
+public void Madd(Trigon input){
+
+trigons.add(input);
+
+}
 
 }
